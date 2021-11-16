@@ -1,3 +1,8 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .liens{
     position: absolute;
     top: 2%;
@@ -21,6 +26,10 @@ a:hover{
     
  
 }
+.imgf{
+    background: url('../mesimg/Page_De_Formation.png');
+    height: 90px;
+    }
 .monimage{
     height: 33px;
     width: 33px;
@@ -37,7 +46,7 @@ a:hover{
     display: flex;
 }
 .barres{
-    background-color: brown;
+    background-color: #ce0033;
     height: 700px;
     width: 23px;
     /* position: absolute;
@@ -46,9 +55,9 @@ a:hover{
 }
 .form1{
     /* en bas */
-    background-color: brown;
+    background-color: #ce0033;
     height: 67px;
-    width: 350px;
+    width: 250px;
     margin-bottom: 700%;
     margin-top: 210%;
     BORDER-RADIUS :50px;
@@ -56,9 +65,9 @@ a:hover{
 }
 .form3{
     /* milieu */
-    background-color: brown;
+    background-color: #ce0033;
     height: 67px;
-    width: 250px;
+    width: 150px;
     margin-top: 50%;
     margin-bottom: 300%;
     BORDER-RADIUS :50px;
@@ -66,9 +75,9 @@ a:hover{
 }
 .form2{
     /* en haut */
-    background-color: brown;
+    background-color: #ce0033;
     height: 67px;
-    width:300px;
+    width:200px;
     margin-top: 100%;
    margin-bottom: 800%;
     BORDER-RADIUS :50px;
@@ -82,13 +91,13 @@ a:hover{
     margin-left: -12px;
     width: 69px;
     margin-top: -50px;
-    border: brown;
+    border: #ce0033;
     BORDER-RADIUS :50%;
 
 }
 .ron1{
     /* milieu */
-    background-color:brown;
+    background-color:#ce0033;
     height: 69px;
     margin-right:99%;
     margin-left: -12px;
@@ -100,20 +109,120 @@ a:hover{
 
 }
 .icon{
-    height: 456%;
+    height: 45%;
     width: 2330%;
     margin-top: 57%;
 }
 .foot{
-    height: 956%;
     width:auto;
    background-color: rgb(17, 16, 16);
 }
 .imgfond{
-    height: 20rem;
+    height: 100%;
    background-image: url("../mesimg/veille.png");
    color: black;
 }
 .in{
    display:flex;
+}
+.bg{
+    background-color:#ce0033;
+    color: white;
+ }
+ #flech{
+     position: relative;
+  top: -3%;
+    height: 40px;;
+ }
+ .couleur {
+     background-color:#ce0033 ;
+ }
+.triagle{
+border-left: 25px transparent solid;
+border-right: 25px transparent solid;
+border-top: 20px #ce0033  solid;
+width: 30px;
+height: 30px;
+transform: translateX(340%);
+position: relative;
+
+
+ }
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 206, 0, 51, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+header {
+    padding: 1.1875rem 0 0 0;
+    box-shadow: 0 0.0625rem 0.8125rem rgba(0, 0, 0, 0.13);
+}
+
+.logo {
+    margin-left: 1.4375rem;
+}
+
+.navbar{
+    padding-bottom: 0;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+@media (min-width: 36rem) {
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 48rem) {
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 62rem) {
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 75rem) {
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 87.5rem) {
+    .navbar-nav {
+        justify-content: space-evenly;
+    }
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #CE0033;
+    border-bottom: 0.1875rem solid #CE0033;
+}
+
+.nav-link {
+    padding-bottom: 1.25rem;
+}
+
+.nav-item .contact {
+    min-width: 5.4375rem;
+    position: relative;
+    bottom: 0.250rem;
+    height: 2rem;
+    border: none;
+    font-weight: 800;
+    background-color: #CE0033;
+    color: #fff;
+    border-radius: 1.5625rem;
 }
